@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(/fonts/Roboto-VariableFont_wdth\,wght.ttf);
+}
+
+
+.header,
+.hero,
+.footer{
+    background-color: #1F2937;
+}
+
+.text{
+    font-family: 'Roboto','Courier New', Courier, monospace;
+}
+
+.header a{
+    font-size: 18px;
+    color:#F9FAF8;
+    text-decoration: none;
+}
+.header{
+    font-size: 24px;
+    color:#F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 120px;
+    
+}
+.header .text{
+    margin: 0;
+}
+#hero-h3{
+    font-size: 48px;
+    color:#F9FAF8;
+    font-weight: 900;
+    margin: 0;
+}
+.hero .text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.hero button{
+    background-color: #3882F6;
+    padding: 5px 14px;
+    border: 0px;
+    border-color: #3882F6;
+    border-radius: 3px;
+    font-size: 18px;
+}
+.hero img{
+    height: 250px;
+}
+.hero{
+    display: flex;
+    padding: 90px 120px;
+    justify-content: space-between;
+}
+
