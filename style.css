@@ -70,6 +70,7 @@ body{
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    margin: 50px;
 }
 .box{
     border: solid 5px rgba(0, 153, 255, 0.658);
@@ -91,4 +92,62 @@ body{
 .card-boxs p{
     margin-right: 40px;
     font-size: small;
+}
+.quote{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    font-style: italic;
+    padding: 110px;
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 110px;
+}
+.quote .text{
+     margin: 110px;
+     text-align: justify;
+     
+}
+#quote-nametaker{
+    margin: 0px;
+}
+.newsletter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    color: white;
+    margin: 200px;
+    padding: 20px;
+    border-radius: 10px;
+
+    
+}
+.newsletter-text{
+    margin-left: 130px;
+}
+#bold-newsletter{
+    font-weight: 700;
+    font-size: 1.05em;
+    
+}
+.newsletter button{
+    background-color: #3882F6;
+    color: white;
+    border-color: white;
+    margin-right: 150px;
+    padding: 0px;
+    width:90px ;
+    height: 30px;
+    border-radius: 3px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    color: white;
 }
