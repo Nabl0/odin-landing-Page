@@ -2,7 +2,10 @@
     font-family: 'Roboto';
     src: url(/fonts/Roboto-VariableFont_wdth\,wght.ttf);
 }
-
+body{
+    margin: 0;
+    padding: 0;
+}
 
 .header,
 .hero,
@@ -57,3 +60,35 @@
     justify-content: space-between;
 }
 
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main #info-text{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+.box{
+    border: solid 5px rgba(0, 153, 255, 0.658);
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+
+}
+.card-holder{
+    display: flex;
+    justify-content: space-evenly;
+    width: 850px;
+}
+.card-text{
+    display: flex;
+    justify-content: space-between;
+    width: 850px;
+}
+.card-boxs p{
+    margin-right: 40px;
+    font-size: small;
+}
